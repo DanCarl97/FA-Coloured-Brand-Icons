@@ -1,6 +1,6 @@
 /*                        */
 /* FA Colored Brand Icons */
-/* v1.0.0                 */
+/* v1.1.0                 */
 /*                        */
 /* Daniel Carl Jones 2015 */
 /*                        */
@@ -1079,21 +1079,30 @@
 @adn: #4A484C;
 @angellist: #4A484C;
 @apple: #999999;
+@contao: #eb8623;
 @css3: #33A9DC;
 @bitcoin: #ee9209;
+@black-tie: #222222;
 @buysellads: #c90100;
 @cc-amex: #007bc1;
+@cc-diners-club: #0069aa;
 @cc-discover: #f68121;
+@cc-jcb: #004099;
 @cc-mastercard: #0a3a82;
 @cc-stripe: #00afe1;
 @cc-visa: #0157a2;
 @codepen: #000000;
 @connectdevelop: #391448;
+@creative-commons: #98C807;
 @empire: #000000;
+@expeditedssl: #563d7c;
 @dashcube: #7f7f7f;
 @google-wallet: @bc-google;
 @ge: @empire;
+@get-pocket: #ed4055;
+@fonticons: #ff7f3f;
 @forumbee: #83ad13;
+@internet-explorer: #00bbf1;
 @ioxhost: #faa729;
 @joomla: #142849;
 @jsfiddle: #4679BD;
@@ -1103,12 +1112,16 @@
 @maxcdn: #FF6600;
 @meanpath: #538ed7;
 @medium: #000000;
+@odnoklassniki: #f2720c;
+@opencart: #23A1D1;
 @openid: #F78C40;
+@optin-monster: #0d82df;
 @pagelines: #000000;
 @pied-piper: #2f9f46;
 @qq: #000000;
 @rebel: #000000;
 @renren: #005EAC;
+@safari: @apple;
 @sellsy: #1f78b9;
 @shirtsinbulk: #dd3a26;
 @simplybuilt: #000000;
@@ -1118,19 +1131,34 @@
 @steam: #0B0B0B;
 @slideshare: #0077b5;
 @tencent-weibo: #20b8e5;
-@weibo: #E71D34;
 @viacoin: #333333;
+@weibo: #E71D34;
+@wikipedia: #000000;
+@y-combinator: #f26522;
 
 // Less Code
 
 .fa-color-icons {
 	i.fa.fa- {
+        // 500px
+        &500px {
+            & {
+                color: @bc-500px;
+            }
+        }
+        
 		// Adn
 		&adn {
 			& {
 				color: @adn;
 			}
 		}
+		// Amazon
+		&amazon {
+  		& {
+    		color: @bc-amazon;
+  		}
+		}		
 		// Android
 		&android {
 			& {
@@ -1167,6 +1195,12 @@
 				color: @bitcoin;
 			}
 		}
+		// black-tie
+		&black-tie {
+  		& {
+    		color: @black-tie;
+  		}
+		}
 		// Btc (Alias of Bitcoin)
 		&btc {
 			& {
@@ -1187,8 +1221,14 @@
 			&-amex {
 				color: @cc-amex;
 			}
+			&-diners-club {
+  			color: @cc-diners-club;
+			}
 			&-discover {
 				color: @cc-discover;
+			}
+			&-jcb {
+  			color: @cc-jcb;
 			}
 			&-mastercard {
 				color: @cc-mastercard;
@@ -1199,6 +1239,12 @@
 			&-visa {
 				color: @cc-visa;
 			}
+		}
+		// Google Chrome
+		&chrome {
+  		& {
+    		color: @bc-google;
+  		}
 		}
 		// Codepen
 		&codepen {
@@ -1211,6 +1257,18 @@
 			& {
 				color: @connectdevelop;
 			}
+		}
+		// Contao
+		&contao {
+  		& {
+    		color: @contao;
+  		}
+		}
+		// Creative Commons
+		&creative-commons {
+  		& {
+    		color: @creative-commons;
+  		}
 		}
 		// CSS3
 		&css3 {
@@ -1266,17 +1324,35 @@
 				color: @empire;
 			}
 		}
+		// ExpeditiedSSL
+		&expeditedssl {
+  		& {
+    		color: @expeditedssl;
+  		}
+		}
 		// Facebook
 		&facebook {
 			&, &-f, &-square, &-official {
 				color: @bc-facebook;
 			}
 		}
+		// Firefox
+		&firefox {
+  		& {
+    		color: @bc-firefox;
+  		}
+		}
 		// Flickr
 		&flickr {
 			& {
 				color: @bc-flickr;
 			}
+		}
+		// FontIcons
+		&fonticons {
+  		& {
+    		color: @fonticons;
+  		}
 		}
 		// Forum Bee
 		&forumbee {
@@ -1295,6 +1371,18 @@
 			& {
 				color: @ge;
 			}
+		}
+		// get-pocket
+		&get-pocket {
+  		& {
+    		color: @get-pocket;
+  		}
+		}
+		// gg
+		&gg {
+  		&, &-circle {
+    		// todo
+  		}
 		}
 		// Git
 		&git {
@@ -1344,6 +1432,12 @@
 				color: @bc-hacker-news;
 			}
 		}
+		// Houzz
+		&houzz {
+  		& {
+    		color: @bc-houzz;
+  		}
+		}
 		// HTML5
 		&html5 {
 			& {
@@ -1355,6 +1449,12 @@
 			& {
 				color: @bc-instagram;
 			}
+		}
+		// Internet Explorer
+		&internet-explorer {
+  		& {
+    		color: @internet-explorer;
+  		}
 		}
 		// IOXHost
 		&ioxhost {
@@ -1416,11 +1516,35 @@
 				color: @medium;
 			}
 		}
+		// odnoklassniki
+		&odnoklassniki {
+  		&, &-square {
+    		color: @odnoklassniki;
+  		}
+		}
+		// OpenCart
+		&opencart {
+  		& {
+    		color: @opencart;
+  		}
+		}
 		// OpenID
 		&openid {
 			& {
 				color: @openid;
 			}
+		}
+		// Opera
+		&opera {
+  		& {
+    		color: @bc-opera;
+  		}
+		}
+		// optin-monster
+		&optin-monster {
+  		& {
+    		color: @optin-monster;
+  		}
 		}
 		// Pagelines
 		&pagelines {
@@ -1463,6 +1587,12 @@
 			& {
 				color:@rebel;
 			}
+		}
+		// Apple Safari
+		&safari {
+  		& {
+    		color: @safari;
+  		}
 		}
 		// Sellsy
 		&sellsy {
@@ -1566,6 +1696,12 @@
 				color:@bc-trello;
 			}
 		}
+		// Trip Advisor
+		&tripadvisor {
+  		& {
+    		color: @bc-tripadvisor;
+  		}
+		}
 		// Tumblr
 		&tumblr {
 			&, &-square {
@@ -1592,7 +1728,7 @@
 		}
 		// Vimeo
 		&vimeo {
-			&-square {
+			&, &-square {
 				color: @bc-vimeo;
 			}
 		}
@@ -1632,6 +1768,12 @@
 				color: @bc-whatsapp;
 			}
 		}
+		// Wikipedia
+		&wikipedia {
+  		&-w {
+    		color: @wikipedia;
+  		}
+		}
 		// Windows
 		&windows {
 			& {
@@ -1649,6 +1791,12 @@
 			&, &-square {
 				color:@bc-xing;
 			}
+		}
+		// y-combinator
+		&y {
+  		&c, &-combinator {
+    		color: @y-combinator;
+  		}
 		}
 		// Yahoo
 		&yahoo {

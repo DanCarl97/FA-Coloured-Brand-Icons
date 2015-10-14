@@ -1,20 +1,19 @@
 /*                        */
 /* FA Colored Brand Icons */
-/* v1.0.0                 */
+/* v1.1.0                 */
 /*                        */
 /* Daniel Carl Jones 2015 */
 /*                        */
 /* Brand Colors Provided by brandcolors.net */
 
-/*                        */
-/* FA Colored Brand Icons */
-/* v1.0.0                 */
-/*                        */
-/* Daniel Carl Jones 2015 */
-/*                        */
-/* Brand Colors Provided by brandcolors.net */
+.fa-color-icons i.fa.fa-500px {
+  color: #0099e5;
+}
 .fa-color-icons i.fa.fa-adn {
   color: #4a484c;
+}
+.fa-color-icons i.fa.fa-amazon {
+  color: #ff9900;
 }
 .fa-color-icons i.fa.fa-android {
   color: #a4c639;
@@ -36,6 +35,9 @@
 .fa-color-icons i.fa.fa-bitcoin {
   color: #ee9209;
 }
+.fa-color-icons i.fa.fa-black-tie {
+  color: #222222;
+}
 .fa-color-icons i.fa.fa-btc {
   color: #ee9209;
 }
@@ -48,8 +50,14 @@
 .fa-color-icons i.fa.fa-cc-amex {
   color: #007bc1;
 }
+.fa-color-icons i.fa.fa-cc-diners-club {
+  color: #0069aa;
+}
 .fa-color-icons i.fa.fa-cc-discover {
   color: #f68121;
+}
+.fa-color-icons i.fa.fa-cc-jcb {
+  color: #004099;
 }
 .fa-color-icons i.fa.fa-cc-mastercard {
   color: #0a3a82;
@@ -60,11 +68,20 @@
 .fa-color-icons i.fa.fa-cc-visa {
   color: #0157a2;
 }
+.fa-color-icons i.fa.fa-chrome {
+  color: #4285f4;
+}
 .fa-color-icons i.fa.fa-codepen {
   color: #000000;
 }
 .fa-color-icons i.fa.fa-connectdevelop {
   color: #391448;
+}
+.fa-color-icons i.fa.fa-contao {
+  color: #eb8623;
+}
+.fa-color-icons i.fa.fa-creative-commons {
+  color: #98c807;
 }
 .fa-color-icons i.fa.fa-css3 {
   color: #33a9dc;
@@ -93,14 +110,23 @@
 .fa-color-icons i.fa.fa-empire {
   color: #000000;
 }
+.fa-color-icons i.fa.fa-expeditedssl {
+  color: #563d7c;
+}
 .fa-color-icons i.fa.fa-facebook,
 .fa-color-icons i.fa.fa-facebook-f,
 .fa-color-icons i.fa.fa-facebook-square,
 .fa-color-icons i.fa.fa-facebook-official {
   color: #3b5998;
 }
+.fa-color-icons i.fa.fa-firefox {
+  color: #e66000;
+}
 .fa-color-icons i.fa.fa-flickr {
   color: #0063dc;
+}
+.fa-color-icons i.fa.fa-fonticons {
+  color: #ff7f3f;
 }
 .fa-color-icons i.fa.fa-forumbee {
   color: #83ad13;
@@ -110,6 +136,9 @@
 }
 .fa-color-icons i.fa.fa-ge {
   color: #000000;
+}
+.fa-color-icons i.fa.fa-get-pocket {
+  color: #ed4055;
 }
 .fa-color-icons i.fa.fa-git,
 .fa-color-icons i.fa.fa-git-square {
@@ -139,11 +168,17 @@
 .fa-color-icons i.fa.fa-hacker-news {
   color: #ff6600;
 }
+.fa-color-icons i.fa.fa-houzz {
+  color: #7ac142;
+}
 .fa-color-icons i.fa.fa-html5 {
   color: #e34f26;
 }
 .fa-color-icons i.fa.fa-instagram {
   color: #3f729b;
+}
+.fa-color-icons i.fa.fa-internet-explorer {
+  color: #00bbf1;
 }
 .fa-color-icons i.fa.fa-ioxhost {
   color: #faa729;
@@ -177,8 +212,21 @@
 .fa-color-icons i.fa.fa-medium {
   color: #000000;
 }
+.fa-color-icons i.fa.fa-odnoklassniki,
+.fa-color-icons i.fa.fa-odnoklassniki-square {
+  color: #f2720c;
+}
+.fa-color-icons i.fa.fa-opencart {
+  color: #23a1d1;
+}
 .fa-color-icons i.fa.fa-openid {
   color: #f78c40;
+}
+.fa-color-icons i.fa.fa-opera {
+  color: #cc0f16;
+}
+.fa-color-icons i.fa.fa-optin-monster {
+  color: #0d82df;
 }
 .fa-color-icons i.fa.fa-pagelines {
   color: #000000;
@@ -203,6 +251,9 @@
 }
 .fa-color-icons i.fa.fa-rebel {
   color: #000000;
+}
+.fa-color-icons i.fa.fa-safari {
+  color: #999999;
 }
 .fa-color-icons i.fa.fa-sellsy {
   color: #1f78b9;
@@ -258,6 +309,9 @@
 .fa-color-icons i.fa.fa-trello {
   color: #0079bf;
 }
+.fa-color-icons i.fa.fa-tripadvisor {
+  color: #589442;
+}
 .fa-color-icons i.fa.fa-tumblr,
 .fa-color-icons i.fa.fa-tumblr-square {
   color: #35465c;
@@ -272,6 +326,7 @@
 .fa-color-icons i.fa.fa-viacoin {
   color: #333333;
 }
+.fa-color-icons i.fa.fa-vimeo,
 .fa-color-icons i.fa.fa-vimeo-square {
   color: #162221;
 }
@@ -293,6 +348,9 @@
 .fa-color-icons i.fa.fa-whatsapp {
   color: #4dc247;
 }
+.fa-color-icons i.fa.fa-wikipedia-w {
+  color: #000000;
+}
 .fa-color-icons i.fa.fa-windows {
   color: #00bcf2;
 }
@@ -302,6 +360,10 @@
 .fa-color-icons i.fa.fa-xing,
 .fa-color-icons i.fa.fa-xing-square {
   color: #026466;
+}
+.fa-color-icons i.fa.fa-yc,
+.fa-color-icons i.fa.fa-y-combinator {
+  color: #f26522;
 }
 .fa-color-icons i.fa.fa-yahoo {
   color: #400191;
